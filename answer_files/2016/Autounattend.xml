@@ -150,5 +150,4 @@
             <EnableLUA>false</EnableLUA>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim://vboxsrv/vagrant/iso%202016/sources/install.wim#Windows Server 2016 Technical Preview 5 SERVERSTANDARD" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
