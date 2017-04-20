@@ -1,8 +1,3 @@
-Write-Host "Cleaning updates.."
-Stop-Service -Name wuauserv -Force
-Remove-Item c:\Windows\SoftwareDistribution\Download\* -Recurse -Force
-Start-Service -Name wuauserv
-
 Write-Host "defragging..."
 if (Get-Command Optimize-Volume -ErrorAction SilentlyContinue) {
     Optimize-Volume -DriveLetter C
